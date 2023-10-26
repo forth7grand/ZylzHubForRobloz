@@ -6,8 +6,8 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "FUCK YOU NINJ",
+	Name = "Yuh",
 	Callback = function()
-      		print("NINJ SUCKS")
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
