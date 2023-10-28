@@ -1,13 +1,55 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "ZylzHub1", HidePremium = false, SaveConfig = true, ConfigFolder = "ZylzHub"})
+local Window = OrionLib:MakeWindow({Name = "ZylzHubv1", HidePremium = false, SaveConfig = true, ConfigFolder = "ZylzHub"})
 local Tab = Window:MakeTab({
-	Name = "inf yield",
+	Name = "BedWars",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "💀💀💀💀💀💀💀",
+		Name = "VapeV4",
 	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "RavenB4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/DzAdmNq1"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "BloxFruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "HoHoHub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Thunder",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "PadoHub (BEST)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Domadic Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Uranium Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/NewVersion.lua"))()
   	end    
 })
