@@ -46,20 +46,3 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
   	end    
-local Tab = Window:MakeTab({
-	Name = "Murder Mystery 2",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "LunarHub",
-	Callback = function()
-      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cafdac8cf3c413e2aba68641d6247547.lua"))()
-  	end    
-})
-Tab:AddButton({
-	Name = "SkiHub",
-	Callback = function()
-      		loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
-  	end    
-})
