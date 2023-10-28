@@ -48,8 +48,8 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "Uranium Hub",
+	Name = "BlackTrap",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/NewVersion.lua"))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/S4nZz/bt_project/main/Games/BlacktrapScript.txt'))()
   	end    
 })
