@@ -45,4 +45,4 @@ Tab:AddButton({
 	Name = "Domadic Hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
-  	end    
+  	end
